@@ -143,6 +143,7 @@ ul {
   /* For a screen < 960px, this CSS will be read */
   .all {
     width: 700px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 720px) {
@@ -158,6 +159,12 @@ ul {
   }
 }
 
+@media (max-width: 450px) {
+  /* For a screen < 540px, this CSS will be read */
+  .all {
+    width: 415px;
+  }
+}
 /*h2 {
   font-family: 'Special Elite', cursive;
 }
